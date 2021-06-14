@@ -1,0 +1,9 @@
+<!--@subject Magento Shop@-->
+{{trans "Magento shop: %myVar" myVar=$data.myvar}}
+
+{{trans
+
+'Please <a href="%reset_url">Click here</a> to confirm.'
+
+reset_url="$this.getUrl($store,'deleteaccount/index/customerdelete')"
+|raw}}

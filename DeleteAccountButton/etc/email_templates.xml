@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Email/etc/email_templates.xsd">
+    <template id="send_email_delete_template" label="Email delete" file="emaildelete.html" type="html" module="Rlab_DeleteAccountButton" area="frontend"/>
+</config>
